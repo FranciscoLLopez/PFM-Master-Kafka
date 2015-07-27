@@ -38,7 +38,7 @@ public class TestProducer {
 					counter++;
 					if (counter%500 ==0 ){	
 						pause(5000);
-						System.out.println("envio " + counter);
+						System.out.println("Sent " + counter);
 						
 					}
 					producer.send(data);
