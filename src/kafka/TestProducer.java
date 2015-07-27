@@ -14,7 +14,7 @@ import kafka.producer.ProducerConfig;
 public class TestProducer {
 	public static void main(String[] args) {
 		long counter = 0;
-		File file = new File("/home/cloudera/workspace-scala/Kafka-Test/ds/SUMMIT_10k.csv");
+		File file = new File("/home/cloudera/workspace-scala/PFM-Master-Kafka/ds/SUMMIT_10k.csv");
 		BufferedReader reader = null;
 
 		Properties props = new Properties();
